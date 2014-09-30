@@ -14,8 +14,10 @@
 
     menu.c is the stud of menu.h and test.c is the driver of this stub.
 
-    use "gcc linktable.h linktable.c menu.h menu.c test.c -o test.o" to get 
-the executable file test.o, then use "./test.o" to test the driver.
+    use "make" command to get the executable file test, then use "./test" to
+test the driver.
+    
+    use "make clean" to clean *.o file
 
     In my program, I test a function twice: with right inputs and wrong inputs.
 And for every input, it reports the expected results, the real results. 
